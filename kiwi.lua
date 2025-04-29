@@ -1903,31 +1903,3 @@ function library:deleteConfig()
         library:notify("Config file does not exist.")
     end
 end
-
-local aimbotTab = library:addTab("Legit")
-local ragetab = library:addTab("Ragebot")
-local visualsTab = library:addTab("Visuals")
-local miscTab = library:addTab("Misc")
-local luatab = library:addTab("Lua")
-local configTab = library:addTab("Settings")
-
-local legit = aimbotTab:createGroup('left', 'Aim Assist')
-local triggerbot = aimbotTab:createGroup('center', 'Extra')
-local silent = aimbotTab:createGroup('right', 'Other')
-
-local ragebot = ragetab:createGroup('left', 'Rage bot')
-local aa_sec = ragetab:createGroup('center', 'Anti Aim')
-local OtherRage = ragetab:createGroup('right', 'Other')
-
-local esp = visualsTab:createGroup('left', 'Esp')
-local extravisuals = visualsTab:createGroup('center', 'Settings')
-local color = visualsTab:createGroup('right', 'Colors')
-
-local mainmisc = miscTab:createGroup('left', 'Misc')
-local world = miscTab:createGroup('center', 'World Editor')
-local Spoofing = miscTab:createGroup('right', 'Spoofing')
-
-local createconfigs = configTab:createGroup('left', 'Create Configs')
-local configsettings = configTab:createGroup('left', 'Config Settings')
-local uisettings = configTab:createGroup('center', 'UI Settings')
-local othersettings = configTab:createGroup('right', 'Other')
